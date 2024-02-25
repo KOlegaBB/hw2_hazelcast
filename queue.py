@@ -55,3 +55,5 @@ if __name__ == "__main__":
     queue = client.get_queue("queue")
 
     queue.clear().result()
+
+    client.shutdown()
